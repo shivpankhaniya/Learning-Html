@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+}
+/* 1. color property
+h1 is a selector to style our html page 
+   color is a css property 
+   red is a value */
+
+   /* 2. background property */
+   h1 {
+    background-color: thistle;
+   }
+
+   /* 3. color system */
+   /* there are mainly two system use in css 
+   1. RGB  (in RGB R stand sor red | G stand for green | B stand for blue)
+   (EX rgb(255,255,255)color set o-255(0-255 is color contity))
+   2. HEX system (hex system follow hexadecimal number system(0-9,A=10,B=11,C=12,D=13,E=14,F=15))
+      (EX #ff0000)*/
+    
+      /* EX OF RGB */
+      p{
+        color: rgb(255,43,67);
+      }
+
+      /* EX OF HEX SYSTEM */
+      h2{
+        color: #9fb670;
+    }
+
+    /* 4. SELECTOR 
+       1. universal selector *{} = to select all html body part
+       2. element selector p{} = to selecct specific element
+       3. id selector #myid{} = slect one id define in html code
+       4. class selector .myclass{} slect one class define in html code*/
+
+       /* 1 ex */
+       *{
+        color: aquamarine;
+        background-color: azure;
+       }
+
+/* 2 ex */
+h3{
+    color: burlywood;
+}
+/* 3 ex*/
+#hello{
+    background-color: rgb(132, 72, 147);
+
+}
+
+/* 4 ex */
+.class{
+    color: aquamarine;
+}
