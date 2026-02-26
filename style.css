@@ -54,3 +54,61 @@ h3{
 .class{
     color: aquamarine;
 }
+
+
+/* Text property */
+/* 1. text align = use to set content (left|right|center) */
+
+#A{
+    text-align: center;
+}
+#B{
+    text-align: right;
+}
+#C{
+    text-align: left;
+}
+
+/* 2. Text Decoration =  use for decorate content (underline|overline|line-through)*/
+
+#D{
+    text-decoration: underline;
+}
+#E{
+   text-decoration: overline;
+}
+#F{
+    text-decoration: line-through;
+}
+
+/* 3. FONT WEIGHT = USE FOR ARRANGE FONT WEIGHT (NORMAL|BOLD|BOLDER|LIGHTER) */
+
+
+#G{
+    font-weight: bold;
+}
+#H{
+   font-weight: bolder;
+}
+#I{
+    font-weight: normal;
+}
+#J{
+    font-weight: lighter;
+}
+
+
+/* 4. FONT FAMILY = USE TO SET FONT FAMILY  */
+
+#HI{
+    font-family: Arial;
+}
+
+#HELLO{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
