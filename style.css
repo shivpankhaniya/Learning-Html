@@ -108,6 +108,43 @@ h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* Units in css = to use set font size */
+/* 1. Absoulte    pixels(px) 96px = 1 inch*/
+
+#one{
+    font-size: 25px;
+}
+
+/* Text Property */
+/* line-height = use for set line height  */
+#two{
+    line-height: 50px;
+}
+
+/* Text transform =  to use text in (uppercase = all text in capital form.|
+lowercase = all text in lowercase form.|cpaitalize = first letter of each word capital.|
+none = It keeps text in its original format) */
+
+/*  uppercase ex */
+#three{
+    text-transform: uppercase;
+}
+
+/* lowercase ex */
+#four{
+    text-transform: lowercase;
+}
+
+/* cpaitalize ex */
+#five{
+    text-transform: capitalize;
+}
+
+/* none ex */
+#six{
+    text-transform: none;
+}
+
 
 
 
